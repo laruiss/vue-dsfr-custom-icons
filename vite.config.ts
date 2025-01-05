@@ -4,7 +4,7 @@ import { fileURLToPath, URL } from 'node:url'
 import {
   vueDsfrAutoimportPreset,
   vueDsfrComponentResolver,
-} from '@laruiss/vue-dsfr'
+} from '@laruiss/vue-dsfr/meta'
 import vue from '@vitejs/plugin-vue'
 import vueJsx from '@vitejs/plugin-vue-jsx'
 import AutoImport from 'unplugin-auto-import/vite'

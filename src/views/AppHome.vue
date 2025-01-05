@@ -7,7 +7,7 @@
 
   <p>
     <VIcon name="ri-flag-line" />  <!-- Exemple icône oh-vue-icon -->
-    <VIcon name="mdi-user-key" />  <!-- Exemple icône oh-vue-icon -->
-    <VIcon name="mdi-user-heart" />  <!-- Exemple icône oh-vue-icon -->
+    <VIcon name="mdi-account-key" />  <!-- Exemple icône oh-vue-icon -->
+    <VIcon name="mdi-account-heart" />  <!-- Exemple icône oh-vue-icon -->
   </p>
 </template>

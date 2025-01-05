@@ -14,12 +14,9 @@ importers:
       '@iconify-json/mdi':
         specifier: ^1.2.2
         version: 1.2.2
-      '@iconify/vue':
-        specifier: ^4.2.0
-        version: 4.2.0(vue@3.5.13(typescript@5.4.5))
       '@laruiss/vue-dsfr':
-        specifier: ^3.6.1
-        version: 3.6.1(@iconify-json/ri@1.2.5)(@iconify/vue@4.2.0(vue@3.5.13(typescript@5.4.5)))(browser-sync@2.29.3)(vue-router@4.5.0(vue@3.5.13(typescript@5.4.5)))(vue@3.5.13(typescript@5.4.5))
+        specifier: ^3.7.5
+        version: 3.7.5(@iconify/vue@4.2.0(vue@3.5.13(typescript@5.4.5)))(browser-sync@2.29.3)(vue-router@4.5.0(vue@3.5.13(typescript@5.4.5)))(vue@3.5.13(typescript@5.4.5))
       focus-trap:
         specifier: ^7.5.4
         version: 7.6.2
@@ -42,6 +39,9 @@ importers:
       '@iconify-json/ri':
         specifier: ^1.2.5
         version: 1.2.5
+      '@iconify/vue':
+        specifier: ^4.2.0
+        version: 4.2.0(vue@3.5.13(typescript@5.4.5))
       '@playwright/test':
         specifier: ^1.46.1
         version: 1.49.1
@@ -977,11 +977,11 @@ packages:
   '@jridgewell/trace-mapping@0.3.25':
     resolution: {integrity: sha512-vNk6aEwybGtawWmy/PzwnGDOjCkLWSD2wqvjGGAgOAwCGWySYXfYoxt00IJkTF+8Lb57DwOb3Aa0o9CApepiYQ==}
 
-  '@laruiss/vue-dsfr@3.6.1':
-    resolution: {integrity: sha512-xcIhR5ZWsOnxkswJgl/EfCfE370kPb32XDIyUHdRdUL1tWLxQYJlsZINe2rJvDxQkHfC7InUUKKJQuomAyCWyA==}
+  '@laruiss/vue-dsfr@3.7.5':
+    resolution: {integrity: sha512-vj0Avyn8sQ/jy9W/L+QVJ1gnT3T4d5rK9wbeSvXYGg1zvYCq0SPKG6RaNFXhvOZ08iFk0Qq/XDmuAUzyUwq02Q==}
     engines: {node: '>=20.x.x', npm: '>=10.x.x'}
+    hasBin: true
     peerDependencies:
-      '@iconify-json/ri': ^1.2.5
       '@iconify/vue': ^4.2.0
       vue: ^3.5.13
       vue-router: ^4.5.0
@@ -5394,10 +5394,9 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.0
 
-  '@laruiss/vue-dsfr@3.6.1(@iconify-json/ri@1.2.5)(@iconify/vue@4.2.0(vue@3.5.13(typescript@5.4.5)))(browser-sync@2.29.3)(vue-router@4.5.0(vue@3.5.13(typescript@5.4.5)))(vue@3.5.13(typescript@5.4.5))':
+  '@laruiss/vue-dsfr@3.7.5(@iconify/vue@4.2.0(vue@3.5.13(typescript@5.4.5)))(browser-sync@2.29.3)(vue-router@4.5.0(vue@3.5.13(typescript@5.4.5)))(vue@3.5.13(typescript@5.4.5))':
     dependencies:
       '@gouvfr/dsfr': 1.12.1(browser-sync@2.29.3)
-      '@iconify-json/ri': 1.2.5
       '@iconify/vue': 4.2.0(vue@3.5.13(typescript@5.4.5))
       focus-trap: 7.6.2
       focus-trap-vue: 4.0.3(focus-trap@7.6.2)(vue@3.5.13(typescript@5.4.5))

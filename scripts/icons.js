@@ -15,8 +15,8 @@ const riIconNames = [
  * @type {string[]}
  */
 const mdiIconNames = [
-  'user-heart',
-  'user-key',
+  'account-heart',
+  'account-key',
 ]
 
 /**
