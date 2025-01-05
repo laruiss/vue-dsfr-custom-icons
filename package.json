@@ -4,6 +4,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
+    "icons": "node scripts/create-collections.js -s scripts/icons.js -t src/icon-collections.ts",
     "clean:dist": "rimraf dist",
     "build-only": "vite build",
     "dev": "vite",
@@ -19,6 +20,7 @@
   },
   "dependencies": {
     "@gouvfr/dsfr": "~1.12.1",
+    "@iconify-json/mdi": "^1.2.2",
     "@iconify/vue": "^4.2.0",
     "@laruiss/vue-dsfr": "^3.6.1",
     "focus-trap": "^7.5.4",
@@ -41,6 +43,8 @@
     "@vitejs/plugin-vue-jsx": "^4.0.1",
     "@vue/test-utils": "^2.4.6",
     "@vue/tsconfig": "^0.5.1",
+    "chalk": "^5.4.1",
+    "commander": "^13.0.0",
     "eslint": "^9.9.1",
     "eslint-plugin-playwright": "^1.6.2",
     "jsdom": "^25.0.0",
